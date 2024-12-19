@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+# سنقوم بضغط الكود الخاص بالموقع في ملف ZIP حتى تتمكن من تنزيله واستخدامه بسهولة
+
+import zipfile
+import os
+
+# مسار الملف المضغوط النهائي
+zip_path = '/mnt/data/personal_website.zip'
+
+# مسار ملف HTML
+html_content = """<!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
